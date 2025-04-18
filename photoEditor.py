@@ -1,8 +1,8 @@
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
-path = r"C:\Users\91998\OneDrive\Desktop\Python_Projects\Image_Editor\imgs"
-pathOut = r'C:\Users\91998\OneDrive\Desktop\Python_Projects\Image_Editor\editedImgs'
+path = "\imgs"
+pathOut = '\editedImgs'
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
