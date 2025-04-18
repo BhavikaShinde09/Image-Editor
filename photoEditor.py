@@ -1,7 +1,7 @@
 from PIL import Image, ImageEnhance, ImageFilter
 import os
 
-path = "IMG_3583.JPG"
+path = "\imgs"
 pathOut = '\editedImgs'
 
 for filename in os.listdir(path):
